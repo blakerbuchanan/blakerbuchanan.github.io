@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Your Name"
-  avatar           : "/assets/images/me.jpg"
+  avatar           : "/assets/imgs/me.jpg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
