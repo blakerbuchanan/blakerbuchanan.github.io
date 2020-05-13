@@ -1,3 +1,7 @@
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
 ---
 title:  "Blogs"
 layout: archive
