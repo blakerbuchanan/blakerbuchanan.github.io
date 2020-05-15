@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title:  "Focus potion"
 date:   2020-05-14
 ---
