@@ -95,9 +95,9 @@ analytics:
 author:
   name             : "Blake R. Buchanan"
   avatar           : "/assets/imgs/me.jpg"
-  bio              : "This site should contain what you are looking for. If not, feel free to send me an email at blakeb@andrew.cmu.edu."
+  bio              : "This site should contain what you are looking for. If not, feel free to send me an email."
   location         : "Pittsburgh, PA"
-  email            :
+  email            : "blakeb@andrew.cmu.edu"
   links:
     - label: "blakeb@andrew.cmu.edu"
       icon: "fas fa-fw fa-envelope-square"
