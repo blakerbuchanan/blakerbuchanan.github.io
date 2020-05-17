@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Blake R. Buchanan"
   avatar           : "/assets/imgs/me.jpg"
-  bio              : "I study robotics at Carnegie Mellon University at the Robotics Institute. More specifically, I am interested in the mechanics of collective behavior."
+  bio              : "I am a graduate student in robotics at Carnegie Mellon University's Robotics Institute. More specifically, I am interested in the mechanics of collective behavior, nonlinear dynamics and control, and mathematics."
   location         : "Pittsburgh, PA"
   email            : "blakeb@andrew.cmu.edu"
   links:
@@ -107,7 +107,7 @@ author:
       # url: "https://your-website.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://twitter.com/blakerbuchanan"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
