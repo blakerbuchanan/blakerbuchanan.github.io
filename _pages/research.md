@@ -20,3 +20,5 @@ Mechanical systems exhibiting nonholonomic constraints can often be of utility i
    </video>
 </div>
 
+## Snake Locomotion
+
