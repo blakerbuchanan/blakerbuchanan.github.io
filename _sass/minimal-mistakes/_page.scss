@@ -5,7 +5,7 @@
 #main {
   @include clearfix;
   margin-left: auto;
-  margin-right: 1em;
+  margin-right: auto;
   padding-left: 5em;
   padding-right: 0em;
   -webkit-animation: $intro-transition;
@@ -203,7 +203,7 @@ body {
     }
 
     .page__lead {
-      max-width: $medium;
+      max-width: $medium-wide;
     }
 
     .page__title {
