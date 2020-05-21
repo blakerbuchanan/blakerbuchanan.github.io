@@ -13,7 +13,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 ## Agent-environment Interactions Through Coupling Media
 Mechanical systems exhibiting nonholonomic constraints can often be of utility in the study of locomotion and coupled group behaviors for biological systems. Many multi-agent systems in nature, for example, are comprised of agents that interact with, and respond to, the dynamics of their environment. In a recent paper, we approached the study of such agent-environment interactions through the study of passively compliant vehicles coupled to their environment via simple nonholonomic constraints. The Chaplygin beanie is a simple underactuated mechanical system that locomotes when its rotor rotates relative to its body.
 <div class="myvideo">
-   <video  style="display:block; width:100%; height:auto;" autoplay controls loop="loop">
+   <video  style="display:block; width:100%; height:auto;" autoplay controls>
       <source src="{{ site.baseurl }}/viewable/beaniemovie.mp4" type="video/mp4" />
       <source src="/viewable/output.ogv" type="video/ogg" />
       <source src="/viewable/output.webm"  type="video/webm"  />
