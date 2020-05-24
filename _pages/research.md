@@ -19,9 +19,9 @@ Mechanical systems exhibiting nonholonomic constraints can often be of utility i
       <source src="/viewable/platform2.webm"  type="video/webm"  />
    </video>
 </div>
-Our recent paper studies the stability of this system and the control of passive agents like this one when atop an actuated platform.
+Though not shown in the following video, the Chaplygin beanie shown is sitting atop a passive platform. In a recent paper, we prove that all initial conditions corresponding to zero net momentum will result in 
 <div class="myvideo">
-   <video  style="display:block; width:50%; height:auto;" controls>
+   <video  style="display:block; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/beaniemovie.mp4" type="video/mp4" />
       <source src="/viewable/output.ogv" type="video/ogg" />
       <source src="/viewable/output.webm"  type="video/webm"  />
