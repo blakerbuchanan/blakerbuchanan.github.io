@@ -1,9 +1,9 @@
 ---
-title:  "About"
+title:  "Home"
 layout: archive
-permalink: /About/
+permalink: /Home/
 author_profile: true
 comments: true
 ---
 
-This is my About page.
+This is my Home page.
