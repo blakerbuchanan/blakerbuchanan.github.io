@@ -19,8 +19,8 @@ The Chaplygin beanie is shown sitting atop a passive platform capable of transla
 <div class="myvideo">
    <video  style="display:block; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.mp4" type="video/mp4" />
-      <source src="/viewable/output.ogv" type="video/ogg" />
-      <source src="/viewable/output.webm"  type="video/webm"  />
+      <source src="/viewable/beanieplatformcropped.ogv" type="video/ogg" />
+      <source src="/viewable/beanieplatformcropped.webm"  type="video/webm"  />
    </video>
 </div> 
 
