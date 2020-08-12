@@ -12,11 +12,13 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 
 ## Mechanics and Control of Coupled Interactions in Ambient Media
 Mechanical systems exhibiting nonholonomic constraints can often be of utility in the study of locomotion and coupled group behaviors for biological systems. Many multi-agent systems in nature, for example, are comprised of agents that interact with, and respond to, the dynamics of their environment. In a recent paper, we approached the study of such agent-environment interactions through the study of passively compliant vehicles coupled to their environment via simple nonholonomic constraints. The Chaplygin beanie is a simple underactuated mechanical system that locomotes when its rotor rotates relative to its body. An example of the Chaplygin beanie is shown below. Supported by two frictionless casters at the front and a torsional spring coupling the rotor to the cart, a nonzero displacement in the spring induces locomotion.
-<img src="{{ site.baseurl }}/assets/imgs/beanieOnAPlatformPic.png" alt="Chaplygin beanie on a movable platform">
-The Chaplygin beanie shown is sitting atop a passive platform capable of translational motion. In a recent paper, we prove that all initial conditions corresponding to zero net momentum will result in stable forward motion of the Chaplygin beanie.
+<br />
+<div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/beanieOnAPlatformPic.png" alt="Chaplygin beanie on a movable platform"></div>
+<br />
+The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In a recent paper, we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.
 <div class="myvideo">
    <video  style="display:block; width:70%; height:auto;" controls>
-      <source src="{{ site.baseurl }}/viewable/beaniemovie.mp4" type="video/mp4" />
+      <source src="{{ site.baseurl }}/viewable/beanieplatform.mp4" type="video/mp4" />
       <source src="/viewable/output.ogv" type="video/ogg" />
       <source src="/viewable/output.webm"  type="video/webm"  />
    </video>
