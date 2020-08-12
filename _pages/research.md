@@ -16,11 +16,11 @@ Mechanical systems exhibiting nonholonomic constraints can often be of utility i
 <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/beanieOnAPlatformPic.png" alt="Chaplygin beanie on a movable platform"></div>
 <br />
 The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In a recent paper, we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.
-<div class="myvideo">
+-> <div class="myvideo">
    <video  style="display:block; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/beanieplatform.mp4" type="video/mp4" />
       <source src="/viewable/output.ogv" type="video/ogg" />
       <source src="/viewable/output.webm"  type="video/webm"  />
    </video>
-</div>
+</div> -<
 
