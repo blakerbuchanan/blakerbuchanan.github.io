@@ -15,7 +15,8 @@ Mechanical systems exhibiting nonholonomic constraints can often be of utility i
 <br />
 <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/beanieOnAPlatformPic.png" alt="Chaplygin beanie on a movable platform"></div>
 <br />
-The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In a recent paper, we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.
+The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In our recent paper published in the ASME 2020 Dynamic Systems and Control Conference (1), we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.
+<br />
 <div class="myvideo">
    <video  style="display:block; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.mp4" type="video/mp4" />
@@ -23,4 +24,5 @@ The Chaplygin beanie is shown sitting atop a passive platform capable of transla
       <source src="/viewable/beanieplatformcropped.webm"  type="video/webm"  />
    </video>
 </div> 
-
+<br />
+The paper referenced above also explores control of the platform, termed <em>exogenous control</em>, and the resulting locomotion of a passive Chaplygin beanie.
