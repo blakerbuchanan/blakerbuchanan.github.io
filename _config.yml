@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Blake R. Buchanan"
   avatar           : "/assets/imgs/me.jpg"
-  bio              : "I am a graduate student in robotics at Carnegie Mellon University's Robotics Institute. More specifically, I am interested in the mechanics of collective behavior, nonlinear dynamics and control, and mathematics."
+  bio              : "I am a researcher at Carnegie Mellon's Robotics Institute. I study the mechanics of collective behavior, nonlinear dynamics and control of mechanical systems, and multi-agent systems."
   location         : "Pittsburgh, PA"
   email            : "blakeb@andrew.cmu.edu"
   links:
