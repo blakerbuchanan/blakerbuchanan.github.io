@@ -31,5 +31,5 @@ The paper referenced above also explores control of the platform, termed <em>exo
 <details>
   <summary>Communication through ambient media...</summary>
   
-  This coupling between agents through ambient media can also be viewed as a mechanism for communication. 
- </details>
+  <p>This coupling between agents through ambient media can also be viewed as a mechanism for communication. </p>
+</details>
