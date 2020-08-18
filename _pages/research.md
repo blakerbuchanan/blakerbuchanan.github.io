@@ -40,11 +40,8 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 <details>
   <summary>Snake Robot Locomotion</summary>
   <p>The constraints on a snake as it slithers along the ground can also be modeled as nonholonomic constraints on a series of wheels on an articulated linkage. Such a robot is shown below.</p>
-  <br />
     <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/side.jpg" alt="Snake robot with four links"></div>
-  <br />
   <p>And here is a video of that robot undergoing a prescribed amplitude modulation to locomote around an object in its environment.</p>
-  <br>
   <div class="myvideo">
     <video  style="display:block; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/fourlinkspeedobject.mp4" type="video/mp4" />
@@ -52,6 +49,5 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
       <source src="/viewable/fourlinkspeedobject.webm"  type="video/webm"  />
     </video>
   </div> 
-  </br>
 </details>
 
