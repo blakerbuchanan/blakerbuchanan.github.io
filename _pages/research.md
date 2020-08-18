@@ -17,7 +17,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 <br />
 <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/beanieOnAPlatformPic.png" alt="Chaplygin beanie on a movable platform"></div>
 <br />
-<p>The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In our recent paper published in the ASME 2020 Dynamic Systems and Control Conference (1), we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.</p>
+<p>The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In our recent paper published in the ASME 2020 Dynamic Systems and Control Conference <a href="https://blakerbuchanan.github.io/Publications/">(1)</a>, we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.</p>
 <br />
 <div class="myvideo">
    <video  style="display:block; width:70%; height:auto;" controls>
@@ -39,6 +39,19 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 
 <details>
   <summary>Snake Robot Locomotion</summary>
-  <p>In progress.</p>
+  <p>The constraints on a snake as it slithers along the ground can also be modeled as nonholonomic constraints on a series of wheels on an articulated linkage. Such a robot is shown below.</p>
+  <br />
+    <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/side.jpg" alt="Snake robot with four links"></div>
+  <br />
+  <p>And here is a video of that robot undergoing a prescribed amplitude modulation to locomote around an object in its environment.</p>
+  <br>
+  <div class="myvideo">
+    <video  style="display:block; width:70%; height:auto;" controls>
+      <source src="{{ site.baseurl }}/viewable/fourlinkspeedobject.mp4" type="video/mp4" />
+      <source src="/viewable/fourlinkspeedobject.ogv" type="video/ogg" />
+      <source src="/viewable/fourlinkspeedobject.webm"  type="video/webm"  />
+    </video>
+  </div> 
+  </br>
 </details>
 
