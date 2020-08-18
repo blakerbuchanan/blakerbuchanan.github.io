@@ -34,10 +34,11 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 <details>
   <summary>Communication Through Ambient Media</summary>
   
-  <p>This coupling between agents through ambient media can also be viewed as a mechanism for communication. </p>
+  <p>This coupling between agents through ambient media can also be viewed as a mechanism for communication. Communication through some physical media has been termed <em>mechanical communication</em> and has been shown to be exhibited at the cellular level (see <a href="https://www.nature.com/articles/nphys3619">this</a>). This particular form of communication is distinct in that information flows through a medium possessing dynamics of its own, encoding quantities possibly describing an individual agent's behavioral states, disturbances in the surrounding medium, and overall group behavioral states. My previous work began to lay a theoretical foundation for investigating mechanical communication from a perspective of robotics and applied mathematics. My current work involves further establishing the concept of mechanical communication within multi-agent systems in ambient media and determining how it can be exploited for decision-making and control of collections of agents within these systems. More on this work as it develops :) </p>
 </details>
 
 <details>
   <summary>Snake Robot Locomotion</summary>
   <p>In progress.</p>
 </details>
+
