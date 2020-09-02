@@ -464,3 +464,7 @@
 details > p {
   font-size: $type-size-6;
 }
+
+.page {
+    width: calc(100% - 300px);
+}
