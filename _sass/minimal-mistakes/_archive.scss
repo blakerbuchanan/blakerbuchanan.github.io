@@ -70,6 +70,8 @@
 .page__content {
   p {
     font-size: $type-size-7
+    width: calc(100% - 300px);
+    padding-right: 3em;
   }
   .archive__item-title {
     margin-top: 1em;
