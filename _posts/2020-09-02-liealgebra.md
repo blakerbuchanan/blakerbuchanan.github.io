@@ -5,5 +5,5 @@ date:   2020-09-02
 ---
 
 <p> 
-Test
+$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 </p>
