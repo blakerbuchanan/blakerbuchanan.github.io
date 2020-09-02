@@ -69,7 +69,7 @@
 /* remove border*/
 .page__content {
   p {
-    font-size: $type-size-6
+    font-size: $type-size-7
   }
   .archive__item-title {
     margin-top: 1em;
@@ -79,7 +79,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-7;
 
   & + p {
     text-indent: 0;
