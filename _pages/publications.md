@@ -13,4 +13,4 @@ comments: true
 <p>3. B.  Buchanan  (2020)  “Mechanics  and  Control  of  Coupled  Interactions  in  Ambient  Media,”  Master’s Thesis, Carnegie Mellon University, Pittsburgh, PA</p>
 
 ## Conference Presentations
-<p>Buchanan, B. (2019, May).Modeling and Dynamics of Planar Swimmers Coupled through Wake Vor-ticity.  Presentation given at the 2019 SIAM Conference on Applications of Dynamical Systems (DS19) </p>
+<p>Buchanan, B. (2019, May). Modeling and Dynamics of Planar Swimmers Coupled through Wake Vorticity.  Presentation given at the 2019 SIAM Conference on Applications of Dynamical Systems (DS19) </p>
