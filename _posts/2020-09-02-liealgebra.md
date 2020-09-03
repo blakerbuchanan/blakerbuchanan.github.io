@@ -1,9 +1,9 @@
 ---
 layout: single
-title:  "Computing Lie algebra elements corresponding to an infinitesimal generator"
+title:  "Lie algebra elements and their infintesimal generators"
 date:   2020-09-02
 ---
 
 <p> 
-$$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
+In progress...
 </p>
