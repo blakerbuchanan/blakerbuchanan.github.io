@@ -22,10 +22,10 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 <div class="myvideo">
    <video  style="display:block; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.mp4" type="video/mp4" />
-      <source src="/viewable/beanieplatformcropped.ogv" type="video/ogg" />
-      <source src="/viewable/beanieplatformcropped.webm"  type="video/webm"  />
+      <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.ogv" type="video/ogg" />
+      <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.webm"  type="video/webm"  />
    </video>
-</div> 
+</div>
 <br />
 <p>The paper referenced above also explores control of the platform, termed <em>exogenous control</em>, and the resulting locomotion of a passive Chaplygin beanie. Much of the work in this paper also contributed to my Master's thesis, which you can download <a href="https://www.ri.cmu.edu/publications/mechanics-and-control-of-coupled-interactions-in-ambient-media/">here</a>.</p>
 </details>
