@@ -62,6 +62,6 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
       <source src="/viewable/fourlinkspeedobject.webm"  type="video/webm"  />
     </video>
   </div> 
-  <p>Robots like this one help us to describe the locomotion of biological systems. I hope to develop more of these kinds of robots in some of my future work with multi-agent systems in ambient media to gain some fundamental insight into how such media contributes to the coordinated efforts of organisms like fish and even cells.
+  <p>Robots like this one help us to describe the locomotion of biological systems. I hope to develop more of these kinds of robots in some of my future work with multi-agent systems in ambient media to gain some fundamental insight into how such media contributes to the coordinated efforts of organisms like fish and even cells.</p>
 </details>
 
