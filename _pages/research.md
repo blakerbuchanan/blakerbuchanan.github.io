@@ -36,6 +36,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.ogv" type="video/ogg" />
       <source src="{{ site.baseurl }}/viewable/twopassivebeanies.webm"  type="video/webm"  />
  </video>
+ </div>
  <div class="myvideo">
    <video  style="display:block; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/beaniesentrainment01.mp4" type="video/mp4" />
