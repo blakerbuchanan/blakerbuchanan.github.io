@@ -32,7 +32,6 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
  <div class="myvideo">
    <video  style="display:block; width:50%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/twopassivebeanies.mp4" type="video/mp4" />
-      <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.ogv" type="video/ogg" />
       <source src="{{ site.baseurl }}/viewable/twopassivebeanies.webm"  type="video/webm"  />
  </video>
  <video  style="display:block; width:50%; height:auto;" controls>
@@ -41,6 +40,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
       <source src="{{ site.baseurl }}/viewable/beaniesentrainment01.webm"  type="video/webm"  />
  </video>
  </div>
+  <p>The first of these two videos shows two Chaplygin beanies on an <em>immovable</em> platform with some initial conditions. Ultimately, they locomote in different directions. The second video shows two Chaplygin beanies on a <em>movable></em> platform with the same initial conditions as the previous experiment. Proving the entrainment phenomenon exhibited in this second video is one of the problems I am currently working on.</p>
 </details>
 
 <!---## Communication Through Ambient Media-->
