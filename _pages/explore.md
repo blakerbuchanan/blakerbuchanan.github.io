@@ -10,7 +10,7 @@ comments: true
   {% include carousel.html height="50" unit="%" duration="7" %}
   
 ## Grand Canyon and Zion National Park
-
+  {% include gc.html height="50" unit="%" duration="7" %}
 ## Weminuche Wilderness
 
 ## Linville Gorge Wilderness
