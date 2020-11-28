@@ -7,7 +7,7 @@ comments: true
 ---
 
 ## Great Smoky Mountains
-  {% include carousel.html height="50" unit="%" duration="7" %}
+  {% include gsm.html height="50" unit="%" %}
   
 ## Grand Canyon and Zion National Park
   {% include gc.html %}
