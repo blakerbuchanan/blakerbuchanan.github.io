@@ -12,9 +12,10 @@ comments: true
 ## Grand Canyon and Zion National Park
   {% include gc.html %}
 
+{% comment %}
 ## Weminuche Wilderness
 
 ## Linville Gorge Wilderness
-
+{% endcomment %}
 
 {% include imagescrollscript.html %}
