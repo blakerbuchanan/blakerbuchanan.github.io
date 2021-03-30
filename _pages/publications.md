@@ -14,3 +14,5 @@ comments: true
 
 ## Conference Presentations
 <p>Buchanan, B. (2019, May). Modeling and Dynamics of Planar Swimmers Coupled through Wake Vorticity.  Presentation given at the 2019 SIAM Conference on Applications of Dynamical Systems (DS19) </p>
+
+<p>Buchanan, B., Travers, M. Choset, H., Kelly S. (2020, October). Stability and Control of Chaplygin Beanies Coupled to a Platform Through Nonholonomic Constraints.  Presentation given at the ASME 2020 Dynamic Systems and Control Conference</p>
