@@ -30,14 +30,14 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 <p>The paper referenced above also explores control of the platform, termed <em>exogenous control</em>, and the resulting locomotion of a passive Chaplygin beanie. Much of the work in this paper also contributed to my Master's thesis, which you can download <a href="https://www.ri.cmu.edu/publications/mechanics-and-control-of-coupled-interactions-in-ambient-media/">here</a>.</p>
 <p>Upon the addition of another Chaplygin beanie to the platform, so that the system now contains two agents within the medium, rich behaviors emerge in simulation. If both agents are equipped with some elasticity in their body and wound up arbitrarily, the two agents will locomote in the same direction independent of either of their orientations and due purely to the dynamics induced by the actuated agent through the medium.</p>
  <div class="myvideo">
-   <video  style="display:block; width:50%; height:auto;" controls>
+   <video  style="display:block; width:49%; height:auto; float:left;" controls>
       <source src="{{ site.baseurl }}/viewable/twopassivebeanies.mp4" type="video/mp4" />
       <source src="{{ site.baseurl }}/viewable/twopassivebeanies.webm"  type="video/webm"  />
  </video>
- <video  style="display:block; width:50%; height:auto;" controls>
+ <video  style="display:block; width:49%; height:auto; float:right;" controls>
       <source src="{{ site.baseurl }}/viewable/beaniesentrainment01.mp4" type="video/mp4" />
       <source src="{{ site.baseurl }}/viewable/beaniesentrainment01.ogv" type="video/ogg" />
-      <source src="{{ site.baseurl }}/viewable/beaniesentrainment01.webm"  type="video/webm"  />
+      <source src="{{ site.baseurl }}/viewable/beaniesentrainment01.webm"  type="video/webm" />
  </video>
  </div>
   <p>The first of these two videos shows two Chaplygin beanies on an <em>immovable</em> platform with some initial conditions. Ultimately, they locomote in different directions. The second video shows two Chaplygin beanies on a <em>movable</em> platform with the same initial conditions as the previous experiment. Proving the entrainment phenomenon exhibited in this second video is one of the problems I am currently working on.</p>
