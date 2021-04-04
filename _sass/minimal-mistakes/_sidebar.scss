@@ -32,7 +32,8 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      height: calc(100vh - #{$nav-height} - 2em);
+//       height: calc(100vh - #{$nav-height} - 2em);
+      height: calc(100vh);
     }
   }
 
@@ -114,7 +115,7 @@
    Author profile and links
    ========================================================================== */
 
-.author__avatar {
+.author__{
   display: table-cell;
   vertical-align: top;
   width: 72px;
@@ -127,7 +128,7 @@
   }
 
   img {
-    max-width: 180px;
+    max-width: 225;
 //     border-radius: 50%;
 
     @include breakpoint($large) {
