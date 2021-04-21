@@ -1,7 +1,7 @@
 ---
 layout: single
-title:  "Test"
-date:   2020-05-14
+title:  "Stabilizing the cart-pole system using finite-horizon LQR"
+date:   2021-04-21
 ---
 
 <p>Test</p>
