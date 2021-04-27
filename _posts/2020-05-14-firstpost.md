@@ -22,6 +22,7 @@ After assuming $J^* = x^T S(t) x$, we can use computations for $\frac{\partial J
 with a terminal condition on $S(t)$ given by $S(T) = Q_f$. Again, this is all well documented at [Underactuated Robotics](http://underactuated.mit.edu/index.html), but let's move to implementing these ideas on a dynamical system. The cart-pole is a common nonlinear dynamical system consisting of a cart moving along an axis, say the $x$ axis, with a pendulum attached to it. We can designate the angle of the pendulum with respect to the "down" position as $\theta$. 
 
 <div style="text-align: center"><img src="{{ site.baseurl }}/viewable/cartpolediagram.png" alt="Cart-pole system"></div>
+<p>Fig. 1. The cart-pole system.</p>
 
 Here is a video of the resulting controller stabilizing about the point $\theta = \pi$ given the initial conditions $x(0) = 0$, $\dot{x}(0) = 0$, and $\theta(0) = \pi + \frac{\pi}{12}$, $\dot{\theta}(0) = 0$. In the spirit of my implementation in the Julia programming language, I have colorized the cart using the Julia logo colors.
 <div class="myvideo">
