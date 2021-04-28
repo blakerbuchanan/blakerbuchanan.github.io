@@ -41,7 +41,7 @@ Our computed optimal control $u^* $ for the LQR is a function of the state $x$ a
 
 Here is a video of the resulting controller stabilizing about the point $\theta = \pi$ given the initial conditions $x(0) = 0$, $\dot{x}(0) = 0$, and $\theta(0) = \pi + \frac{\pi}{12}$, $\dot{\theta}(0) = 0$. In the spirit of my implementation in the Julia programming language, I have colorized the cart using the Julia logo colors.
 <div class="myvideo">
-   <video  style="display:block; width:70%; height:auto;" controls>
+   <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/cartpole.mp4" type="video/mp4" />
       <source src="{{ site.baseurl }}/viewable/cartpole.ogv" type="video/ogg" />
       <source src="{{ site.baseurl }}/viewable/cartpole.webm"  type="video/webm"  />
