@@ -24,6 +24,16 @@ with a terminal condition on $S(t)$ given by $S(T) = Q_f$. Again, this is all we
 <div style="text-align: center"><img src="{{ site.baseurl }}/viewable/cartpolediagram.png" alt="Cart-pole system"></div>
 <p>$$\text{Fig. 1. The cart-pole system.}$$</p>
 
+Suppose our cart-pole system has a motor at the pendulum joint, but that the cart can still move freely in the $x$ direction. We are currently working with a control strategy that works for linear(ized) time-invariant dynamical systems. This means the controller will only work within some $\epsilon$-small ball of the stable equilibrium $x^* = x_f$, $\theta^* = \pi$, $\dot{x}^* = 0$, and $\dot{\theta}^* = 0$. Firstly, assume we start within the set of LQR-controllable states. Secondly, we have some intuition of what those states are --- we cannot be too far away from $\theta^* = \pi$ when employing LQR --- but we do not have explicit knowledge of how far *too far* is. Note that one could determine this numerically for a given set of cart-pole parameters $m$, $M$, and $L$. Under no control, the the system exhibits behaviors like the one shown below.
+
+<div class="myvideo">
+   <video  style="display:block; width:70%; height:auto;" controls>
+      <source src="{{ site.baseurl }}/viewable/cartpolenocontrol.mp4" type="video/mp4" />
+      <source src="{{ site.baseurl }}/viewable/cartpolenocontrol.ogv" type="video/ogg" />
+      <source src="{{ site.baseurl }}/viewable/cartpolenocontrol.webm"  type="video/webm"  />
+   </video>
+</div>
+
 There exist packages in MATLAB, Python, and Julia that will compute an LQR controller for you given a set of linear(ized) dynamics. I will refrain from using these tools. This is primarily because one purpose of these tutorials / posts is to solidify my understanding of these optimal control concepts. In what follows I will describe how to implement this numerically and then provide a link to my code afterword.
 
 Our computed optimal control $u^* $ for the LQR is a function of the state $x$ as well as the time-varying funtion $S(t)$. So a question we should ask is "how do we solve for $S(t)$? The optimal control changes as a function of $S(t)$ at each time step, so numerically we need a trajectory for $S(t)$ that corresponds to the paramters of our optimal control problem. Recall that we know a boundary condition for the continuous-time differential Riccati equation ($S(T) = Q_f$). For anyone familiar with numerically solving ODEs, finding a trajectory for $S(t)$ is simply a matter of backward simulating the continuous-time differential Riccati equation. Doing so will give us a discrete trajectory for $S(t)$, which might require that we interpolate between points not given in the solved trajectory. Or, if we are using a language like Julia, our numerical solution for $S(t)$ contains not just the solutions at discrete points in time, but an interpolating function as well.
