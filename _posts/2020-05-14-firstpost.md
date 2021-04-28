@@ -25,15 +25,14 @@ with a terminal condition on $S(t)$ given by $S(T) = Q_f$. Again, this is all we
 <p>$$\text{Fig. 1. The cart-pole system.}$$</p>
 
 Suppose our cart-pole system has a motor at the pendulum joint, but that the cart can still move freely in the $x$ direction. We are currently working with a control strategy that works for linear(ized) time-invariant dynamical systems. This means the controller will only work within some $\epsilon$-small ball of the stable equilibrium $x^* = x_f$, $\theta^* = \pi$, $\dot{x}^* = 0$, and $\dot{\theta}^* = 0$. Firstly, assume we start within the set of LQR-controllable states. Secondly, we have some intuition of what those states are --- we cannot be too far away from $\theta^* = \pi$ when employing LQR --- but we do not have explicit knowledge of how far *too far* is. Note that one could determine this numerically for a given set of cart-pole parameters $m$, $M$, and $L$. Under no control, the the system exhibits behaviors like the one shown below.
-<p align="center">
-<div class="myvideo">
+
+<div class="myvideo" style="text-align: center">
    <video  style="display:block; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/cartpolenocontrol.mp4" type="video/mp4" />
       <source src="{{ site.baseurl }}/viewable/cartpolenocontrol.ogv" type="video/ogg" />
       <source src="{{ site.baseurl }}/viewable/cartpolenocontrol.webm"  type="video/webm"  />
    </video>
 </div>
-</p>
 <br>
 There exist packages in MATLAB, Python, and Julia that will compute an LQR controller for you given a set of linear(ized) dynamics. I will refrain from using these tools. This is primarily because one purpose of these tutorials / posts is to solidify my understanding of these optimal control concepts. In what follows I will describe how to implement this numerically and then provide a link to my code afterward.
 
