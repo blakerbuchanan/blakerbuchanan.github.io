@@ -20,7 +20,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 <p>The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In our recent paper published in the ASME 2020 Dynamic Systems and Control Conference <a href="https://blakerbuchanan.github.io/Publications/">(1)</a>, we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.</p>
 <br />
 <div class="myvideo">
-   <video  style="display:block; width:70%; height:auto;" controls>
+   <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.mp4" type="video/mp4" />
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.ogv" type="video/ogg" />
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.webm"  type="video/webm"  />
@@ -56,7 +56,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
     <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/side.jpg" alt="Snake robot with four links"></div>
   <p>And here is a video of that robot undergoing a prescribed amplitude modulation to locomote around an object in its environment.</p>
   <div class="myvideo">
-    <video  style="display:block; width:70%; height:auto;" controls>
+    <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/fourlinkspeedobject.mp4" type="video/mp4" />
       <source src="/viewable/fourlinkspeedobject.ogv" type="video/ogg" />
       <source src="/viewable/fourlinkspeedobject.webm"  type="video/webm"  />
