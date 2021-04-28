@@ -2,11 +2,13 @@
 // as per http://webdesignerwall.com/tutorials/css-elastic-videos
 
 .myvideo {
+
 position : relative;
 display : block;
 width : 30%;
 min-width : 200px;
-margin : auto;
+margin-left: auto;
+margin-right: auto;
 height : auto;
 }
 .flex-video {
