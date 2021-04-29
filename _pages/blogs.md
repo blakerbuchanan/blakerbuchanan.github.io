@@ -1,10 +1,10 @@
 ---
-title:  "Blog"
+title:  "Portfolio"
 layout: archive
-permalink: /blog/
+permalink: /portfolio/
 author_profile: true
 entries_layout: grid
-comments: false
+classes: wide
 ---
 
 {% for post in site.posts %}
