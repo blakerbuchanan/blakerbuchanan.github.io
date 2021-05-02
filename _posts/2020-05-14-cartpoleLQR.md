@@ -4,7 +4,7 @@ title:  "Stabilizing the cart-pole system using finite-horizon LQR"
 date:   2021-04-21
 ---
 
-There are a variety of good resources for learning LQR and various other topics in optimal control. For this post, I have referenced Russ Tedrake's online book [Underactuated Robotics](http://underactuated.mit.edu/index.html) and will use it in my discussion of the LQR controller and its application to stabilizing the cart-pole system within some ball of its basin of attraction. I will go through the derivation of LQR, though note that this is really well documented in Russ Tedrake's book, and is effectively what I will follow. Afterward, I will mostly focus on solving the optimal control problem and its implementation numerically, particularly in the Julia programming language.
+There are a variety of good resources for learning LQR and various other topics in optimal control. For this post, I have referenced Russ Tedrake's online book [Underactuated Robotics](http://underactuated.mit.edu/index.html) and will use it in my discussion of the LQR controller and its application to stabilizing the cart-pole system within some ball of its basin of attraction. I will go through the derivation of LQR, though note that this is really well documented in Russ Tedrake's book, and is effectively what I will follow. Afterward, I will mostly focus on solving the optimal control problem and its implementation numerically, particularly in the Julia programming language. If you are only interested in viewing the results of my implementation, feel free to scroll ahead and view the videos showing the results of the controller. 
 
 A fundamental feedback control strategy in optimal control is the linear quadratic regulator (LQR). It assumes linear dynamics of the form $$\dot{x} = Ax + Bu,$$ as well as a quadratic cost function given by $$J(x,u) = h(x(T)) + \int_0^T (x^TQx + u^TRu)dt.$$ It is also assumed that $Q$ is positive definite and $R$ is positive semidefinite. The Hamilton-Jacobi-Bellman (HJB) equation gives a necessary and sufficient condition for optimality for an optimal control problem. For this problem, we write the HJB as
 <p> $$0 = \underset{u}{\text{min}}\big [x^T Q x + u^T R u + \frac{\partial J^*}{\partial x}(Ax + Bu) + \frac{\partial J^*}{\partial t} \big ]. $$</p>
@@ -47,4 +47,6 @@ Here is a video of the resulting controller stabilizing about the point $\theta 
    </video>
 </div>
 <br>
-The code for this can be found at 
+The code for solving this problem can be found at [Cartpole Stabilization](https://github.com/blakerbuchanan/controlsProblems.git) in the cartpoleStabilization folder. Note that all of my implementations are in the Julia programming language.
+
+Thanks for reading.
