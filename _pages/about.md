@@ -12,4 +12,4 @@ I have also recently taken an interest in the <a href="https://julialang.org/">J
 
 <details>
   <summary>Miscellany</summary>
-  <p>A three-dimensional fractal called the [Mandelbulb](https://en.wikipedia.org/wiki/Mandelbulb) exists and it is beautiful. I find it difficult to stop eating Trader Joe's almond butter granola. </p>
+  <p>A three-dimensional fractal called the <a href="https://en.wikipedia.org/wiki/Mandelbulb">Mandelbulb</a> exists and it is beautiful. I find it difficult to stop eating Trader Joe's almond butter granola. </p>
