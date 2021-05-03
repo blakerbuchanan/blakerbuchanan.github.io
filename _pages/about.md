@@ -11,5 +11,5 @@ Hi, I am Blake. I thoroughly enjoy outdoor activities like hiking and climbing, 
 I have also recently taken an interest in the <a href="https://julialang.org/">Julia</a> programming language. I have created a series of blog posts (available at <a href="https://blakerbuchanan.github.io/portfolio/">Portfolio</a>) to develop my proficiency as well as provide some neat videos and code for those interested in topics like dynamical systems and optimal control.
 
 <details>
-  <summary>Facts about me...</summary>
-  <p>I find it difficult to stop eating Trader Joe's almond butter granola. </p>
+  <summary>Miscellany</summary>
+  <p>A three-dimensional fractal called the [Mandelbulb](https://en.wikipedia.org/wiki/Mandelbulb) exists and it is beautiful. I find it difficult to stop eating Trader Joe's almond butter granola. </p>
