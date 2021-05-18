@@ -16,4 +16,4 @@ The phrase "energy-shaping" is intuitive, answering the question: "how can I con
 </div>
 <p>$$\text{A video of the final cart-pole swing-up control problem.}$$</p>
 
-Details in progress. Topics will include feedback linearization and partial feedback linearization (collocated and noncollocated). Also show that this can be done with the Acrobot. 
+Details in progress. Topics will include feedback linearization and partial feedback linearization (collocated and noncollocated). Also show that this can be done with the Acrobot.
