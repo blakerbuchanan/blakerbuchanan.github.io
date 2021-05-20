@@ -6,7 +6,7 @@ date:   2021-05-14
 
 In [Stabilizing the cart-pole system using finite-horizon LQR](https://blakerbuchanan.github.io/cartpoleLQR/), I discussed how one can implement an LQR controller to stabilize the cart-pole system when the system is initialized within the basin of attraction of the controlled system. This is satisfying in implementation, but one naturally then asks the question of how to accomplish the control problem of swinging up the pendulum when it is initialized outside of the basin of attraction. This was a neat result when I first successfully implemented it, and upon doing so a second time (in Julia), I still think it is neat.
 
-The phrase "energy-shaping" is intuitive, answering the question: "how can I control the system such that it possesses a certain desired amount of energy?" I again assume the parameters are all equal to 1. Below is a video of my implementation of energy-shaping control. Continue reading for details concerning the method and implementation.
+The phrase "energy-shaping" is intuitive, answering the question: "how can I control the system such that it possesses a certain desired amount of energy?" I again assume the parameters are all equal to 1, including the gravitational constant. Below is a video of my implementation of energy-shaping control. Continue reading for details concerning the method and implementation.
 <div class="myvideo">
    <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/cartpoleSwingUpv2.mp4" type="video/mp4" />
@@ -33,4 +33,12 @@ then we get the partially feedback linearized equations
 <p>
 $$\ddot{x} = \ddot{x}^{des},$$
 $$ \ddot{\theta} = -\ddot{x}^{des}\cos\theta - \sin\theta. $$
- </p>
+</p>
+Let's rewrite these equations such that $$u$$ represents our control input.
+<p>
+$$\ddot{x} = u,$$
+$$ \ddot{\theta} = -u\cos\theta - \sin\theta. $$
+</p>
+We are interested in controlling the pendulum to the unstable fixed point and to do this we need to introduce the idea of *desired* energy. A lone pendulum, not on a cart but rigidly affixed to the ceiling, has energy corresponding to
+<p> $$E(q,\dot{q}) = \frac{1}{2}\dot{\theta}^2 - \cos\theta $$. </p>
+This is just the kinetic energy minus the potential energy when, again, all of the parameters are equal to one. The energy at $$\theta = \pi$$
