@@ -20,7 +20,17 @@ Details in progress. Topics will include feedback linearization and partial feed
 
 Our goal is to inject energy into the system in a controlled way such that it possesses an amount of energy corresponding to the unstable fixed point. To do this, we first need to linearize part of the dynamics so that we are working only with a subset of the *nonlinear* dynamics. The linearization of part of the dynamics of a system is appropriately called *partial feedback linearization* (PFL). There are two distinct types of PFL: *collocated* and *non-collocated*. We employ collocated PFL if we want to linearize the dynamics of actuated variables, and employ non-collocated PFL when we want to linearize the dynamics of unactuated variables. Collocated PFL yields the following equations (the same as those obtained in [Underactuated Robotics](http://underactuated.mit.edu/index.html) when parameters are equal to 1):
 
+<p>
 $$ \ddot{\theta} = -\ddot{x}\cos\theta - \sin\theta,$$
 $$ \ddot{x}(2-\cos^2\theta) - \sin\theta\cos\theta-\dot{\theta}^2\sin\theta = f_x.$$
+</p>
 
+If we apply control in the form of 
 
+<p>$$ f_x = \ddot{x}^{des}(2-\cos^2\theta) - \sin\theta\cos\theta-\dot{\theta}^2\sin\theta, $$ </p>
+
+then we get the partially feedback linearized equations
+<p>
+$$\ddot{x} = \ddot{x}^{des},$$
+$$ \ddot{\theta} = -\ddot{x}^{des}\cos\theta - \sin\theta. $$
+ </p>
