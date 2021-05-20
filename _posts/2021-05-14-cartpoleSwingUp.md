@@ -47,7 +47,7 @@ A suitable controller that injects energy into the system such that the error in
 <p>$$u = k\dot{\theta}\cos\theta (E^d(q,\dot{q}) - E(q,\dot{q})).$$</p>
 However, we need to make sure the cart is regulated in some way so we superpose a PD controller for the cart and get
 <p>$$u = k_E\dot{\theta}\cos\theta (E^d(q,\dot{q}) - E(q,\dot{q})) - k_px - k_d \dot{x}.$$</p>
-I chose $$k_E = 8$$, $$, $$k_p = 0.5$$, and $$k_d = 0.5$$ for the controller employed in the above animation. See [Underactuated Robotics](http://underactuated.mit.edu/index.html) for some details concerning how to ensure the energy is bounded and will go to zero. Here is a plot of the system trajectory in the phase space of the pendulum.
+I chose $$k_E = 8$$, $$k_p = 0.5$$, and $$k_d = 0.5$$ for the controller employed in the above animation. See [Underactuated Robotics](http://underactuated.mit.edu/index.html) for some details concerning how to ensure the energy is bounded and will go to zero. Here is a plot of the system trajectory in the phase space of the pendulum.
 
 <div style="text-align: center"><img src="{{ site.baseurl }}/viewable/cartpoleSwingUpphaseportrait.png" alt="Cart-pole phase space trajectory"></div>
 <p>$$\text{Fig. 1. Trajectory of the pendulum in phase space under energy-shaping control.}$$</p>
