@@ -9,12 +9,12 @@ In [Stabilizing the cart-pole system using finite-horizon LQR](https://blakerbuc
 The phrase "energy-shaping" is intuitive, answering the question: "how can I control the system such that it possesses a certain desired amount of energy?" I again assume the parameters are all equal to 1, including the gravitational constant. Below is a video of my implementation of energy-shaping control. Continue reading for details concerning the method and implementation.
 <div class="myvideo">
    <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
-      <source src="{{ site.baseurl }}/viewable/cartpoleSwingUpv2.mp4" type="video/mp4" />
-      <source src="{{ site.baseurl }}/viewable/cartpoleSwingUpv2.ogv" type="video/ogg" />
-      <source src="{{ site.baseurl }}/viewable/cartpoleSwingUpv2.webm"  type="video/webm"  />
+      <source src="{{ site.baseurl }}/viewable/cartpoleSwingUp.mp4" type="video/mp4" />
+      <source src="{{ site.baseurl }}/viewable/cartpoleSwingUp.ogv" type="video/ogg" />
+      <source src="{{ site.baseurl }}/viewable/cartpoleSwingUp.webm"  type="video/webm"  />
    </video>
 </div>
-<p>$$\text{A video of the final cart-pole swing-up control problem.}$$</p>
+<p>$$\text{Animation 1. A video of the final cart-pole swing-up control problem.}$$</p>
 
 Details in progress. Topics will include feedback linearization and partial feedback linearization (collocated and noncollocated). Also show that this can be done with the Acrobot.
 
@@ -47,6 +47,9 @@ A suitable controller that injects energy into the system such that the error in
 <p>$$u = k\dot{\theta}\cos\theta (E^d(q,\dot{q}) - E(q,\dot{q})).$$</p>
 However, we need to make sure the cart is regulated in some way so we superpose a PD controller for the cart and get
 <p>$$u = k_E\dot{\theta}\cos\theta (E^d(q,\dot{q}) - E(q,\dot{q})) - k_px - k_d \dot{x}.$$</p>
-I chose $$k_E = 8$$, $$, $$k_p = 0.5$$, and $$k_d = 0.5$$ for the controller employed in the above animation. See [Underactuated Robotics](http://underactuated.mit.edu/index.html) for some details concerning how to ensure the energy is bounded and will go to zero.
+I chose $$k_E = 8$$, $$, $$k_p = 0.5$$, and $$k_d = 0.5$$ for the controller employed in the above animation. See [Underactuated Robotics](http://underactuated.mit.edu/index.html) for some details concerning how to ensure the energy is bounded and will go to zero. Here is a plot of the system trajectory in the phase space of the pendulum.
+
+<div style="text-align: center"><img src="{{ site.baseurl }}/viewable/cartpoleSwingUpphaseportrait.png" alt="Cart-pole system"></div>
+<p>$$\text{Fig. 1. Trajectory of the pendulum in phase space under energy-shaping control.}$$</p>
 
 Thanks again for reading.
