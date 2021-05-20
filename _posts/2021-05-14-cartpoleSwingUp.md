@@ -17,3 +17,10 @@ The phrase "energy-shaping" is intuitive, answering the question: "how can I con
 <p>$$\text{A video of the final cart-pole swing-up control problem.}$$</p>
 
 Details in progress. Topics will include feedback linearization and partial feedback linearization (collocated and noncollocated). Also show that this can be done with the Acrobot.
+
+Our goal is to inject energy into the system in a controlled way such that it possesses an amount of energy corresponding to the unstable fixed point. To do this, we first need to linearize part of the dynamics so that we are working only with a subset of the *nonlinear* dynamics. The linearization of part of the dynamics of a system is appropriately called *partial feedback linearization* (PFL). There are two distinct types of PFL: *collocated* and *non-collocated*. We employ collocated PFL if we want to linearize the dynamics of actuated variables, and employ non-collocated PFL when we want to linearize the dynamics of unactuated variables. Collocated PFL yields the following equations (the same as those obtained in [Underactuated Robotics](http://underactuated.mit.edu/index.html) when parameters are equal to 1):
+
+$$ \ddot{\theta} = -\ddot{x}\cos\theta - \sin\theta,$$
+$$ \ddot{x}(2-\cos^2\theta) - \sin\theta\cos\theta-\dot{\theta}^2\sin\theta = f_x.$$
+
+
