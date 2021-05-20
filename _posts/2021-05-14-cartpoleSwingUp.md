@@ -40,5 +40,13 @@ $$\ddot{x} = u,$$
 $$ \ddot{\theta} = -u\cos\theta - \sin\theta. $$
 </p>
 We are interested in controlling the pendulum to the unstable fixed point and to do this we need to introduce the idea of *desired* energy. A lone pendulum, not on a cart but rigidly affixed to the ceiling, has energy corresponding to
-<p> $$E(q,\dot{q}) = \frac{1}{2}\dot{\theta}^2 - \cos\theta $$. </p>
-This is just the kinetic energy minus the potential energy when, again, all of the parameters are equal to one. The energy at $$\theta = \pi$$
+<p> $$E(q,\dot{q}) = \frac{1}{2}\dot{\theta}^2 - \cos\theta. $$ </p>
+This is just the kinetic energy minus the potential energy when, again, all of the parameters are equal to one. The energy at the fixed point ($$\theta = \pi$$) is
+<p> $$E(q,\dot{q}) = 1. $$ </p>
+A suitable controller that injects energy into the system such that the error in the desired energy and the actual energy is zero is
+<p>$$u = k\dot{\theta}\cos\theta (E^d(q,\dot{q}) - E(q,\dot{q})).$$</p>
+However, we need to make sure the cart is regulated in some way so we superpose a PD controller for the cart and get
+<p>$$u = k_E\dot{\theta}\cos\theta (E^d(q,\dot{q}) - E(q,\dot{q})) - k_px - k_d \dot{x}.$$</p>
+I chose $$k_E = 8$$, $$, $$k_p = 0.5$$, and $$k_d = 0.5$$ for the controller employed in the above animation. See [Underactuated Robotics](http://underactuated.mit.edu/index.html) for some details concerning how to ensure the energy is bounded and will go to zero.
+
+Thanks again for reading.
