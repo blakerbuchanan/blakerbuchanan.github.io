@@ -50,4 +50,6 @@ I chose $$k_E = 8$$, $$k_p = 0.5$$, and $$k_d = 0.5$$ for the controller employe
 <div style="text-align: center"><img src="{{ site.baseurl }}/viewable/cartpoleSwingUpphaseportrait.png" alt="Cart-pole phase space trajectory"></div>
 <p>$$\text{Fig. 1. Trajectory of the pendulum in phase space under energy-shaping control.}$$</p>
 
+The code for solving this problem can be found at [Cartpole Stabilization](https://github.com/blakerbuchanan/controlsProblems.git) in the cartpoleStabilization folder. Note that all of my implementations are in the Julia programming language.
+
 Thanks again for reading.
