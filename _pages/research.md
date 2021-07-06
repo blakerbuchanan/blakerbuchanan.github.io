@@ -54,7 +54,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
   <summary>Snake Robot Locomotion</summary>-->
 ## Snake Robot Locomotion
   <p>The constraints on a snake as it slithers along the ground can also be modeled as nonholonomic constraints on a series of wheels on a series of articulated linkages. The role of compliance in biological systems is ubiquitous. Fish and snakes have flexible bodies, and humans have muscles and tendons which are compliant. In <a href="https://blakerbuchanan.github.io/Publications/">(2)</a>, we investigate the locomotion of a multi-link nonholonomic snake robot and experimentally validate its locomotion under amplitude and frequency variations in sinusoidal actuation of its foremost joint. The remaining joints are passively compliant via linear springs. A robot of such a system is shown below.</p>
-    <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/side.jpg" alt="Snake robot with four links"></div>
+<div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/side.jpg" alt="Snake robot with four links"></div>
   <p>And here is a video of that robot undergoing a prescribed amplitude modulation to locomote around an object in its environment.</p>
   <div class="myvideo">
     <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
