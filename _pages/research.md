@@ -10,9 +10,9 @@ comments: true
 
 I graduated cum laude from the University of North Carolina at Charlotte in 2018 where I earned a BS in Mechanical Engineering and Engineering Science. My research efforts there took place throughout my final two years, during which I was advised by Professor <a href="http://scottdavidkelly.wikidot.com/">Scott D. Kelly</a>. I then went on to graduate with a MS in robotics in 2020 from Carnegie Mellon University's Robotics Institute. I was associated with the <a href="http://biorobotics.ri.cmu.edu/index.php">Biorobotics</a> lab and was co-advised by Professors <a href="https://www.ri.cmu.edu/ri-faculty/howie-choset/">Howie Choset</a> and <a href="https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/">Matthew Travers</a>, with Professor Kelly also closely involved with my research. I currently reside at the Robotics Institute as a researcher in the Biorobotics lab. My focus has primarily been on studying, developing models for, and building multi-agent systems of underactuated robots rooted in nonholonomic mechanics. I am particularly interested in robots whose locomotion embodies that of biological agents which move on compliant substrates or in fluid environments.
 
-<!---## Mechanics and Control of Coupled Interactions in Ambient Media-->
-<details>
-  <summary>Mechanics and Control of Coupled Interactions in Ambient Media</summary>
+## Mechanics and Control of Coupled Interactions in Ambient Media
+<!---<details>
+  <summary>Mechanics and Control of Coupled Interactions in Ambient Media</summary> -->
 <p>Mechanical systems exhibiting nonholonomic constraints can often be of utility in the study of locomotion and coupled group behaviors for biological systems. Many multi-agent systems in nature, for example, are comprised of agents that interact with, and respond to, the dynamics of their environment. In a recent paper, we approached the study of such agent-environment interactions through the study of passively compliant vehicles coupled to their environment via simple nonholonomic constraints. The Chaplygin beanie is a simple underactuated mechanical system that locomotes when its rotor rotates relative to its body. An example of the Chaplygin beanie is shown below. Supported by two frictionless casters at the front and a torsional spring coupling the rotor to the cart, a nonzero displacement in the spring induces locomotion.</p>
 <br />
 <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/beanieOnAPlatformPic.png" alt="Chaplygin beanie on a movable platform"></div>
@@ -41,17 +41,18 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
  </video>
  </div>
 <p>The first of these two videos shows two Chaplygin beanies on an <em>immovable</em> platform with some initial conditions. Ultimately, they locomote in different directions. The second video shows two Chaplygin beanies on a <em>movable</em> platform with the same initial conditions as the previous experiment. Proving the entrainment phenomenon exhibited in this second video is one of the problems I am currently working on.</p>
-</details>
+<!---</details>-->
 
-<!---## Communication Through Ambient Media-->
-<details>
-  <summary>Communication Through Ambient Media</summary>
+## Mechanical Communication Through Ambient Media
+<!---<details>
+  <summary>Communication Through Ambient Media</summary>-->
   
-  <p>This coupling between agents through ambient media can also be viewed as a mechanism for communication. Communication through some physical media has been termed <em>mechanical communication</em> and has been shown to be exhibited at the cellular level (see <a href="https://www.nature.com/articles/nphys3619">this</a>). This particular form of communication is distinct in that information flows through a medium possessing dynamics of its own, encoding quantities possibly describing an individual agent's behavioral states, disturbances in the surrounding medium, and overall group behavioral states. My previous work began to lay a theoretical foundation for investigating mechanical communication from a perspective of robotics and applied mathematics. My current work involves further establishing the concept of mechanical communication within multi-agent systems in ambient media and determining how it can be exploited for decision-making and control of collections of agents within these systems. More on this work as it develops :) </p>
-</details>
+  <p>Mechanical coupling between agents through ambient media can also be viewed as a mechanism for communication. Communication through some physical media has been termed <em>mechanical communication</em> and has been shown to be exhibited at the cellular level (see <a href="https://www.nature.com/articles/nphys3619">this</a>). This particular form of communication is distinct in that information flows through a medium possessing dynamics of its own, encoding quantities possibly describing an individual agent's behavioral states, disturbances in the surrounding medium, and overall group behavioral states. My previous work began to lay a theoretical foundation for investigating mechanical communication from a perspective of robotics and applied mathematics. My current work involves further establishing the concept of mechanical communication within multi-agent systems in ambient media and determining how it can be exploited for decision-making and control of collections of agents within these systems. More on this work as it develops. </p>
+<!--</details>-->
 
-<details>
-  <summary>Snake Robot Locomotion</summary>
+<!--<details>
+  <summary>Snake Robot Locomotion</summary>-->
+  ## Snake Robot Locomotion
   <p>The constraints on a snake as it slithers along the ground can also be modeled as nonholonomic constraints on a series of wheels on a series of articulated linkages. The role of compliance in biological systems is ubiquitous. Fish and snakes have flexible bodies, and humans have muscles and tendons which are compliant. In <a href="https://blakerbuchanan.github.io/Publications/">(2)</a>, we investigate the locomotion of a multi-link nonholonomic snake robot and experimentally validate its locomotion under amplitude and frequency variations in sinusoidal actuation of its foremost joint. The remaining joints are passively compliant via linear springs. A robot of such a system is shown below.</p>
     <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/side.jpg" alt="Snake robot with four links"></div>
   <p>And here is a video of that robot undergoing a prescribed amplitude modulation to locomote around an object in its environment.</p>
@@ -63,5 +64,5 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
     </video>
   </div> 
   <p>Robots like this one help us to describe the locomotion of biological systems. I hope to develop more of these kinds of robots in some of my future work with multi-agent systems in ambient media to gain some fundamental insight into how such media contributes to the coordinated efforts of organisms like fish and even cells.</p>
-</details>
+<!--</details>-->
 
