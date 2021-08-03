@@ -12,6 +12,7 @@ I have also recently taken an interest in the <a href="https://julialang.org/">J
 
 ## Quick Access
 <a href="https://github.com/blakerbuchanan/algosdatastructs.git">Algorithm and Data Structure Implementations (Python)</a>
+
 <a href="{{ site.baseurl }}/viewable/Blake_Buchanan_Resume.pdf" target="_blank">Resume</a>
 
 <details>
