@@ -2,6 +2,8 @@
 layout: single
 title:  "Stabilizing the cart-pole system using finite-horizon LQR"
 date:   2021-04-21
+header:
+  teaser: "{{ site.baseurl }}/viewable/cartpolediagram.png"
 ---
 
 There are a variety of good resources for learning LQR and various other topics in optimal control. For this post, I have referenced Russ Tedrake's online book [Underactuated Robotics](http://underactuated.mit.edu/index.html) and will use it in my discussion of the LQR controller and its application to stabilizing the cart-pole system within some ball of its basin of attraction. I will go through the derivation of LQR, though note that this is really well documented in Russ Tedrake's book, and is effectively what I will follow. Afterward, I will mostly focus on solving the optimal control problem and its implementation numerically, particularly in the Julia programming language. If you are only interested in viewing the results of my implementation, feel free to scroll ahead and view the videos showing the results of the controller. 
