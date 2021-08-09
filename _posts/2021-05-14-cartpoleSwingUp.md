@@ -2,6 +2,8 @@
 layout: single
 title:  "Solving the cart-pole swing-up problem with energy shaping and LQR for stabilization"
 date:   2021-05-14
+header:
+  teaser: /assets/imgs/cartpoleswing.png
 ---
 
 In [Stabilizing the cart-pole system using finite-horizon LQR](https://blakerbuchanan.github.io/cartpoleLQR/), I discussed how one can implement an LQR controller to stabilize the cart-pole system when the system is initialized within the basin of attraction of the controlled system. This is satisfying in implementation, but one naturally then asks the question of how to accomplish the control problem of swinging up the pendulum when it is initialized outside of the basin of attraction. This was a neat result when I first successfully implemented it, and I still think so upon doing so a second time (in Julia).
