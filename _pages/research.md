@@ -29,6 +29,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 <br />
 <p>The paper referenced above also explores control of the platform, termed <em>exogenous control</em>, and the resulting locomotion of a passive Chaplygin beanie. Much of the work in this paper also contributed to my Master's thesis, which you can download <a href="https://www.ri.cmu.edu/publications/mechanics-and-control-of-coupled-interactions-in-ambient-media/">here</a>.</p>
 <p>Upon the addition of another Chaplygin beanie to the platform, so that the system now contains two agents within the medium, rich behaviors emerge in simulation. If both agents are equipped with some elasticity in their body and wound up arbitrarily, the two agents will locomote in the same direction independent of either of their orientations and due purely to the dynamics induced by the actuated agent through the medium.</p>
+
  <div class="myvideo">
    <video  style="display:block; width:49%; height:auto; float:left;" controls>
       <source src="{{ site.baseurl }}/viewable/twopassivebeanies.mp4" type="video/mp4" />
