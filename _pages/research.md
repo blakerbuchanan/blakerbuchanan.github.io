@@ -17,18 +17,18 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 
 <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/beanieOnAPlatformPic.png" alt="Chaplygin beanie on a movable platform"></div> 
 
-<p>The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In our recent paper published in the ASME 2020 Dynamic Systems and Control Conference <a href="https://blakerbuchanan.github.io/Publications/">(1)</a>, we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.</p>
-<br />
+<p>The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In our recent paper published in the ASME 2020 Dynamic Systems and Control Conference <a href="https://blakerbuchanan.github.io/Publications/">(1)</a>, we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.</p> 
+
 <div class="myvideo">
    <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.mp4" type="video/mp4" />
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.ogv" type="video/ogg" />
       <source src="{{ site.baseurl }}/viewable/beanieplatformcropped.webm"  type="video/webm"  />
    </video>
-</div>
-<br />
+</div> 
+
 <p>The paper referenced above also explores control of the platform, termed <em>exogenous control</em>, and the resulting locomotion of a passive Chaplygin beanie. Much of the work in this paper also contributed to my Master's thesis, which you can download <a href="https://www.ri.cmu.edu/publications/mechanics-and-control-of-coupled-interactions-in-ambient-media/">here</a>.</p>
-<p>Upon the addition of another Chaplygin beanie to the platform, so that the system now contains two agents within the medium, rich behaviors emerge in simulation. If both agents are equipped with some elasticity in their body and wound up arbitrarily, the two agents will locomote in the same direction independent of either of their orientations and due purely to the dynamics induced by the actuated agent through the medium.</p>
+<p>Upon the addition of another Chaplygin beanie to the platform, so that the system now contains two agents within the medium, rich behaviors emerge in simulation. If both agents are equipped with some elasticity in their body and wound up arbitrarily, the two agents will locomote in the same direction independent of either of their orientations and due purely to the dynamics induced by the actuated agent through the medium.</p> 
 
  <div class="myvideo">
    <video  style="display:block; width:49%; height:auto; float:left;" controls>
@@ -40,7 +40,8 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
       <source src="{{ site.baseurl }}/viewable/beaniesentrainment01.ogv" type="video/ogg" />
       <source src="{{ site.baseurl }}/viewable/beaniesentrainment01.webm"  type="video/webm" />
  </video>
- </div>
+ </div> 
+ 
 <p>The first of these two videos shows two Chaplygin beanies on an <em>immovable</em> platform with some initial conditions. Ultimately, they locomote in different directions. The second video shows two Chaplygin beanies on a <em>movable</em> platform with the same initial conditions as the previous experiment. Proving the entrainment phenomenon exhibited in this second video is one of the problems I am currently working on.</p>
 <!---</details>-->
 
