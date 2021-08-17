@@ -6,7 +6,7 @@ author_profile: true
 comments: true
 ---
 
-<p>4. **Buchanan, B.**, Dear, Kelly, S. D., T., Travers, M., and Choset, H., (2021) The Geometric Structure of Externally Actuated Planar Locomoting Systems in Ambient Media. arXiv Preprint. (<a href="https://arxiv.org/abs/2108.06442">download</a>)</p>
+<p>4. __Buchanan, B.__, Dear, Kelly, S. D., T., Travers, M., and Choset, H., (2021) The Geometric Structure of Externally Actuated Planar Locomoting Systems in Ambient Media. arXiv Preprint. (<a href="https://arxiv.org/abs/2108.06442">download</a>)</p>
 
 <p>3. **Buchanan, B.**, Travers, M., Choset, H., and Kelly, S. D., (2020) Stability and Control of Chaplygin Beanies Coupled to a Platform Through Nonholonomic Constraints. ASME 2020 Dynamic Systems and Control Conference (<a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/buchanan2020v2.pdf">download</a>)</p>
 
