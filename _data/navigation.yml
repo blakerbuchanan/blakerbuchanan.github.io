@@ -7,7 +7,7 @@ main:
   - title: "Publications"
     url: /Publications/
   - title: "CV"
-    url: "{{ site.baseurl }}/viewable/Blake_Buchanan_CV.pdf"
+    url: "/viewable/Blake_Buchanan_CV.pdf"
   - title: "Explore"
     url: /Explore/
   - title: "Portfolio"
