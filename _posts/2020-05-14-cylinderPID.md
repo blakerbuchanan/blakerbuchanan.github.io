@@ -11,13 +11,11 @@ number of directed vortex pairs is shown below.
 
 <div style="text-align: center"><img src="{{ site.baseurl }}/viewable/cylinder_vortex_shedding.png" alt="A Planar Aquatic Vehicle Shedding Vortices Impulsively"></div>
 
-<p>$$\text{Fig. 1. A fluid-propulsive aquatic vehicle in an ideal fluid that exerts control over its motion using impulsive fluid-ejection events.}$$</p>
+<p>$$\text{Fig. 1. A fluid-propulsive aquatic vehicle that locomotes using impulsive fluid-ejection events.}$$</p>
 
 A free-body diagram of the system can be seen below.
 
 <div style="text-align: center"><img src="{{ site.baseurl }}/viewable/freebodydiagram.png" alt="A Free-body Diagram for a Planar Aquatic Vehicle Shedding Vortices Impulsively"></div>
-
-<p>$$\text{Fig. 2. The free-body diagram for a fluid-propulsive aquatic vehicle in an ideal fluid that exerts control over its motion using impulsive fluid-ejection events.}$$</p>
 
 ## Dynamics
 
@@ -54,15 +52,15 @@ Using the proposed control law, we let $x_d = 1, y_d = 1$ to verify its ability 
 
 <div style="text-align: center"><img src="{{ site.baseurl }}/viewable/cylpos.png" alt="Trajectory of cylinder under a PD control law stabilizing about the point x_d = 1, y_d = 1 with the cylinder initialized at the origin."></div>
 
-$$\text{Fig. 3. Trajectory of cylinder under a PD control law stabilizing about point $x_d = 1, y_d = 1$ with initial conditions $q_0 = 0$.}$$
+<p>$$\text{Fig. 3. Trajectory of cylinder under a PD control law.}$$</p>
 
 We can see from the above figure that the system stabilizes within some basin of attraction of the setpoint under the PD control law. The following figure shows that the velocity of the cylinder approaches zero as the system approaches the setpoint.
 
 <div style="text-align: center"><img src="{{ site.baseurl }}/viewable/cylvel.png" alt="Trajectory of cylinder under a PD control law stabilizing about the point x_d = 1, y_d = 1 with the cylinder initialized at the origin."></div>
 
-$$\text{Fig. 4. Inertial velocity of the cylinder while controlling to  $x_d = 1, y_d = 1$ with initial conditions $q_0 = 0$}.$$
+<p>$$\text{Fig. 4. Inertial velocity of the cylinder while controlling to  $x_d = 1, y_d = 1$ with initial conditions $q_0 = 0$}.$$</p>
 
-A simulation of the above control law deployed on the aquatic vehicle is shown in the video below.
+A simulation of the above control law deployed on the aquatic vehicle is shown in the video below. Pay close attention to the initial ejection event. This initial vortex pair is given a lot of strength, and thus separates from the cylinder almost too quickly to notice.
 
 <div class="myvideo">
    <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
