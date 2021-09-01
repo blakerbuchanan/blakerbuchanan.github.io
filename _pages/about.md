@@ -13,6 +13,8 @@ I have also recently taken an interest in the <a href="https://julialang.org/">J
 
 <a href="{{ site.baseurl }}/viewable/Blake_Buchanan_Resume.pdf" target="_blank">Resume</a>
 
+<a href="https://github.com/blakerbuchanan" target="_blank">GitHub</a>
+
 <details>
   <summary>Miscellany</summary>
   <p>A three-dimensional fractal called the <a href="https://en.wikipedia.org/wiki/Mandelbulb">Mandelbulb</a> exists and it is beautiful. I find it difficult to stop eating Trader Joe's almond butter granola. </p>
