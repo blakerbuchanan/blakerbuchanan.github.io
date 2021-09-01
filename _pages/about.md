@@ -7,7 +7,7 @@ comments: true
 ---
 Hi, I am Blake. My research experience has roots in the fields of robotics, applied mathematics, and mechanics. I currently research and implement novel geometric methods for accomplishing control and coordination for biologically inspired multi-robot systems as part of the research staff in the Biorobotics Lab at Carnegie Mellon University. See my <a href="https://blakerbuchanan.github.io/Research/">Research</a> page for more information. I also enjoy traveling and the outdoors. See <a href="https://blakerbuchanan.github.io/Explore/">Explore</a>.
 
-I have also recently taken an interest in the <a href="https://julialang.org/">Julia</a> programming language. See my <a href="https://blakerbuchanan.github.io/portfolio/">Portfolio</a> page to view some videos and code of implementations of various topics in dynamical systems and optimal control.
+I have also recently taken an interest in the <a href="https://julialang.org/">Julia</a> programming language. See my <a href="https://blakerbuchanan.github.io/portfolio/">Portfolio</a> page for implementations of various topics in dynamical systems and optimal control, some of which use Julia.
 ## Quick Access
 <a href="https://github.com/blakerbuchanan/algosdatastructs.git" target="_blank">Algorithm and Data Structure Implementations (Python)</a>  
 
