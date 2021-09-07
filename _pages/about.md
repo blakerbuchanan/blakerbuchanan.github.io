@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 comments: true
 ---
-Hi, I am Blake. My research experience has roots in the fields of robotics, applied mathematics, and mechanics. I currently research and implement novel geometric methods for accomplishing control and coordination for biologically inspired multi-robot systems as part of the research staff in the Biorobotics Lab at Carnegie Mellon University. See my <a href="https://blakerbuchanan.github.io/Research/">Research</a> page for more information. I also enjoy traveling and the outdoors. See <a href="https://blakerbuchanan.github.io/Explore/">Explore</a>.
+Hi, I am Blake. My research experience has roots in the fields of robotics, applied mathematics, and mechanics. I currently research and implement novel geometric methods for accomplishing control and coordination for biologically inspired multi-robot systems as part of the research staff in the Biorobotics Lab at Carnegie Mellon University. See my <a href="https://blakerbuchanan.github.io/Research/">Research</a> page for more information. I am currently seeking career opportunities that allow me to leverage and apply my experience to impactful problems in the fields of artificial intelligence and robotics. I also enjoy traveling and the outdoors(see my <a href="https://blakerbuchanan.github.io/Explore/">Explore</a> page).
 
 I have also recently taken an interest in the <a href="https://julialang.org/">Julia</a> programming language. See my <a href="https://blakerbuchanan.github.io/portfolio/">Portfolio</a> page for implementations of various topics in dynamical systems and optimal control, some of which use Julia.
 ## Quick Access
