@@ -1,7 +1,7 @@
 ---
 title:  "Resume"
 layout: archive
-permalink: /cv/
+permalink: /Resume/
 author_profile: true
 comments: true
 ---
