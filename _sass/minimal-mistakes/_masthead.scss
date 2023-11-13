@@ -12,6 +12,8 @@
   z-index: 20;
   padding-left: 5em;
   padding-right: 5em;
+  margin-left: 1em;
+  margin-right: 1em;
 
   &__inner-wrap {
     @include clearfix;
