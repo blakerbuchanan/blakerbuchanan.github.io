@@ -95,11 +95,11 @@ analytics:
 author:
   name             : "Blake R. Buchanan"
   avatar           : "/assets/imgs/me.jpg"
-  bio              : "Autonomy and Motion Planning Engineer, Sarcos Robotics"
+  bio              : "Senior Robotics Engineer, Neya Systems"
   location         : "Pittsburgh, PA"
-  email            : "blake.buchanan@sarcos.com"
+  email            : "bbuchanan@neyarobotics.com"
   links:
-    - label: "blake.buchanan@sarcos.com"
+    - label: "bbuchanan@neyarobotics.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
