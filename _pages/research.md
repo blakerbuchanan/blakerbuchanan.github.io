@@ -8,10 +8,10 @@ comments: true
 
 ## Biography
 
-I graduated cum laude from the University of North Carolina at Charlotte in 2018 where I earned a BS in Mechanical Engineering and Engineering Science. My research efforts there took place throughout my final two years, during which I was advised by Professor <a href="http://scottdavidkelly.wikidot.com/">Scott D. Kelly</a>. I then went on to graduate with a MS in robotics in 2020 from Carnegie Mellon University's Robotics Institute. I was associated with the <a href="http://biorobotics.ri.cmu.edu/index.php">Biorobotics</a> lab and was co-advised by Professors <a href="https://www.ri.cmu.edu/ri-faculty/howie-choset/">Howie Choset</a> and <a href="https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/">Matthew Travers</a>, with Professor Kelly also closely involved with my research. My focus was primarily on studying, developing models for, and building multi-agent systems of underactuated robots rooted in nonholonomic mechanics. While I have been particularly interested in robots whose locomotion embodies that of biological agents which move on compliant substrates or in fluid environments, see <a href="https://www.ri.cmu.edu/project/geometric-mechanics-the-dynamics-and-control-of-multi-robot-systems-in-ambient-media/" target="_blank">Geometric Mechanics: The Dynamics and Control of Multi-robot Systems in Ambient Media</a>, my current research interests span a variety of topics. I specifically enjoy thinking about optimization problems with a geometric flavor and algorithms to solve them that require one to reason about both theory and the hardware on which they might be deployed.
+I graduated cum laude from the University of North Carolina at Charlotte in 2018 where I earned a BS in Mechanical Engineering and Engineering Science. My research efforts there took place throughout my final two years, during which I was advised by Professor <a href="http://scottdavidkelly.wikidot.com/">Scott D. Kelly</a>. I then went on to graduate with a MS in robotics in 2020 from Carnegie Mellon University's Robotics Institute. I was associated with the <a href="http://biorobotics.ri.cmu.edu/index.php">Biorobotics</a> lab and was co-advised by Professors <a href="https://www.ri.cmu.edu/ri-faculty/howie-choset/">Howie Choset</a> and <a href="https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/">Matthew Travers</a>, with Professor Kelly also closely involved with my research. My focus was primarily on studying, developing models for, and building multi-agent systems of underactuated robots rooted in nonholonomic mechanics. While I have been particularly interested in robots whose locomotion embodies that of biological agents which move on compliant substrates or in fluid environments, see <a href="https://www.ri.cmu.edu/project/geometric-mechanics-the-dynamics-and-control-of-multi-robot-systems-in-ambient-media/" target="_blank">Geometric Mechanics: The Dynamics and Control of Multi-robot Systems in Ambient Media</a>, my current research interests span a variety of topics. I specifically enjoy thinking about optimization problems with a geometric flavor and algorithms to solve them that require one to reason about both theory and the hardware on which they might be deployed. I have also more recently begun thinking about broader applications in robotics, exploring questions such as, *how can we harness the technologies introduced by Large Language Models (LLMs) and Vision Language Models (VLMs) to improve the robots we might deploy in the real world?*
 
-## Mechanics and Control of Coupled Interactions in Ambient Media
-<!---<details>
+## Mechanics and Control of Coupled Interactions in Ambient Media (2018 - 2021)
+<!-- <details>
   <summary>Mechanics and Control of Coupled Interactions in Ambient Media</summary> -->
 <p>Mechanical systems exhibiting nonholonomic constraints can often be of utility in the study of locomotion and coupled group behaviors for biological systems. Many multi-agent systems in nature, for example, are comprised of agents that interact with, and respond to, the dynamics of their environment. In a recent paper, we approached the study of such agent-environment interactions through the study of passively compliant vehicles coupled to their environment via simple nonholonomic constraints. The Chaplygin beanie is a simple underactuated mechanical system that locomotes when its rotor rotates relative to its body. An example of the Chaplygin beanie is shown below. Supported by two frictionless casters at the front and a torsional spring coupling the rotor to the cart, a nonzero displacement in the spring induces locomotion.</p> 
 
@@ -43,9 +43,9 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
  </div> 
  
 <p>The first of these two videos shows two Chaplygin beanies on an <em>immovable</em> platform with some initial conditions. Ultimately, they locomote in different directions. The second video shows two Chaplygin beanies on a <em>movable</em> platform with the same initial conditions as the previous experiment. Proving the entrainment phenomenon exhibited in this second video is one of the problems I am currently working on.</p>
-<!---</details>-->
+<!-- </details> -->
 
-## Mechanical Communication Through Ambient Media
+## Mechanical Communication Through Ambient Media (2020 - 2021)
 <!---<details>
   <summary>Communication Through Ambient Media</summary>-->
   
@@ -54,7 +54,7 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
 
 <!--<details>
   <summary>Snake Robot Locomotion</summary>-->
-## Snake Robot Locomotion
+## Snake Robot Locomotion (2017 - 2019)
   <p>The constraints on a snake as it slithers along the ground can also be modeled as nonholonomic constraints on a series of wheels on a series of articulated linkages. The role of compliance in biological systems is ubiquitous. Fish and snakes have flexible bodies, and humans have muscles and tendons which are compliant. In <a href="https://blakerbuchanan.github.io/Publications/">(2)</a>, we investigate the locomotion of a multi-link nonholonomic snake robot and experimentally validate its locomotion under amplitude and frequency variations in sinusoidal actuation of its foremost joint. The remaining joints are passively compliant via linear springs. A robot of such a system is shown below.</p>
 <div style="text-align: center"><img src="{{ site.baseurl }}/assets/imgs/side.jpg" alt="Snake robot with four links"></div>
   <p>And here is a video of that robot undergoing a prescribed amplitude modulation to locomote around an object in its environment.</p>
