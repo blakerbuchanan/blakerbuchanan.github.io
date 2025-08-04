@@ -10,6 +10,13 @@ comments: true
 
 I graduated cum laude from the University of North Carolina at Charlotte in 2018 where I earned a BS in Mechanical Engineering and Engineering Science. My research efforts there took place throughout my final two years, during which I was advised by Professor <a href="http://scottdavidkelly.wikidot.com/">Scott D. Kelly</a>. I then went on to graduate with a MS in robotics in 2020 from Carnegie Mellon University's Robotics Institute. I was associated with the <a href="http://biorobotics.ri.cmu.edu/index.php">Biorobotics</a> lab and was co-advised by Professors <a href="https://www.ri.cmu.edu/ri-faculty/howie-choset/">Howie Choset</a> and <a href="https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/">Matthew Travers</a>, with Professor Kelly also closely involved with my research. My focus was primarily on studying, developing models for, and building multi-agent systems of underactuated robots rooted in nonholonomic mechanics. While I have been particularly interested in robots whose locomotion embodies that of biological agents which move on compliant substrates or in fluid environments, see <a href="https://www.ri.cmu.edu/project/geometric-mechanics-the-dynamics-and-control-of-multi-robot-systems-in-ambient-media/" target="_blank">Geometric Mechanics: The Dynamics and Control of Multi-robot Systems in Ambient Media</a>, my current research interests span a variety of topics. I specifically enjoy thinking about optimization problems with a geometric flavor and algorithms to solve them that require one to reason about both theory and the hardware on which they might be deployed. I have also more recently begun thinking about broader applications in robotics, exploring questions such as, *how can we harness the technologies introduced by Large Language Models (LLMs) and Vision Language Models (VLMs) to improve the robots we might deploy in the real world?*
 
+## GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering (2024 - 2025)
+<div class="grapheqa">
+   <video  style="display:block; margin: 0 auto; width:70%; height:auto;" controls>
+      <source src="{{ site.baseurl }}/viewable/grapheqa_bluepan_norobot_fast_actual.mp4" type="video/mp4" />
+   </video>
+</div> 
+
 ## Mechanics and Control of Coupled Interactions in Ambient Media (2018 - 2021)
 <!-- <details>
   <summary>Mechanics and Control of Coupled Interactions in Ambient Media</summary> -->

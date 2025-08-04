@@ -13,6 +13,8 @@ See my <a href="https://blakerbuchanan.github.io/portfolio/">Portfolio</a> page 
 
 <a href="{{ site.baseurl }}/viewable/Blake_Buchanan_Resume.pdf" target="_blank">Resume</a>
 
+---
+
 ## Publications
 <p><b>GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering</b>. Saumya Saxena, <b>Blake Buchanan</b>, Chris Paxton, Peiqi Liu, Bingqing Chen, Narunas Vaskevicius, Luigi Palmieri, Jonathan Francis, and Oliver Kroemer, (2025) Conference on Robot Learning (CoRL) <a href="https://www.arxiv.org/abs/2412.14480" target="_blank">[arXiv]</a> <a href="https://saumyasaxena.github.io/grapheqa/" target="_blank">[website]</a></p>
 
