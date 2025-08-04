@@ -4,8 +4,6 @@ main:
     url: /
   - title: "Research"
     url: /Research/
-  - title: "Publications"
-    url: /Publications/
   - title: "CV"
     url: "/viewable/Blake_Buchanan_Resume.pdf"
   - title: "Explore"
