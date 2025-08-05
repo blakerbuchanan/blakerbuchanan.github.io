@@ -16,6 +16,9 @@ I graduated cum laude from the University of North Carolina at Charlotte in 2018
       <source src="{{ site.baseurl }}/viewable/grapheqa_bluepan_norobot_fast_actual.mp4" type="video/mp4" />
    </video>
 </div> 
+Left panel: Robot equipped with <a href="https://grapheqa.github.io/">GraphEQA</a>, an approach that utilizes real-time 3D metric-semantic scene graphs (3DSGs) and task relevant images as multi-modal memory for grounding Vision-Language Models (VLMs) to perform EQA tasks in unseen environments. The robot uses GraphEQA to navigate a home while planning and mapping the environment in real-time; captured via an externally mounted camera.
+Right panel: Metric-semantic 3D mesh and scene graph construction from Hydra. TSDF-based 2D occupancy map where white nodes represent explored areas, red nodes are obstacles, blue nodes are clustered frontiers. Green node shows the target location chosen by the planner.
+Right panel inset: Video feed from the robot head camera.
 
 ## Mechanics and Control of Coupled Interactions in Ambient Media (2018 - 2021)
 <!-- <details>
