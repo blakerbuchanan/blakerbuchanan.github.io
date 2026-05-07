@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blake R. Buchanan</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --col: 860px;
+      --gap: 2rem;
+      --fg: #111;
+      --muted: #666;
+      --link: #111;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--fg);
+      background: #fff;
+      padding: 0 var(--gap);
+    }
+
+    /* ── Layout ── */
+    header, main, footer {
+      max-width: var(--col);
+      margin: 0 auto;
+    }
+
+    /* ── Header / Nav ── */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 3rem 0 3rem;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .header-identity {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-name-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+
+    .header-avatar {
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    header .name {
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      text-decoration: none;
+      color: var(--fg);
+    }
+
+    nav { display: flex; gap: 1.5rem; }
+
+    .social-links { display: flex; gap: 1.5rem; }
+
+    nav a, .social-links a {
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    nav a:hover, .social-links a:hover { color: var(--fg); }
+
+    /* ── Sections ── */
+    main { padding: 3rem 0; }
+
+    section { margin-bottom: 3.5rem; }
+
+    section:last-child { margin-bottom: 0; }
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+    }
+
+    /* ── Accordion ── */
+    details {
+      border-top: 1px solid #e8e8e8;
+    }
+
+    details:last-of-type {
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 1rem 0;
+      cursor: pointer;
+      list-style: none;
+      font-weight: 500;
+      gap: 1rem;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: '+';
+      color: var(--muted);
+      font-weight: 400;
+      flex-shrink: 0;
+    }
+
+    details[open] summary::after {
+      content: '−';
+    }
+
+    details[open] summary {
+      margin-bottom: 1rem;
+    }
+
+    .detail-body {
+      padding-bottom: 1.5rem;
+    }
+
+    .detail-body video {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 1.25rem 0;
+    }
+
+    /* ── Bio ── */
+    .bio p {
+      margin-bottom: 1rem;
+      color: var(--fg);
+    }
+
+    .bio p:last-child { margin-bottom: 0; }
+
+    .bio a {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* ── Publication list ── */
+    .pub-list { list-style: none; }
+
+    .pub-list li {
+      padding: 1rem 0;
+      border-top: 1px solid #e8e8e8;
+    }
+
+    .pub-list li:last-child { border-bottom: 1px solid #e8e8e8; }
+
+    .pub-title {
+      font-weight: 500;
+      margin-bottom: 0.2rem;
+    }
+
+    .pub-meta {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 0.3rem;
+    }
+
+    .pub-links { font-size: 0.875rem; }
+
+    .pub-links a {
+      color: var(--muted);
+      text-decoration: none;
+      margin-right: 0.75rem;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 1px;
+    }
+
+    .pub-links a:hover { color: var(--fg); border-color: var(--fg); }
+
+    /* ── Footer ── */
+    footer {
+      padding: 2.5rem 0;
+      border-top: 1px solid #e8e8e8;
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--fg); }
+
+    /* ── Responsive ── */
+    @media (max-width: 480px) {
+      header { flex-direction: column; gap: 1rem; }
+      nav { flex-wrap: wrap; gap: 1rem; }
+      footer { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-identity">
+      <img class="header-avatar" src="assets/imgs/me.jpg" alt="Blake Buchanan">
+      <div class="header-name-group">
+        <a class="name" href="index.html">Blake R. Buchanan</a>
+        <div class="social-links">
+          <a href="mailto:blakerbuchanan@gmail.com">Email</a>
+          <a href="https://github.com/blakerbuchanan" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/blakerbuchanan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">About</a>
+      <a href="research.html">Research</a>
+      <a href="viewable/Blake_Buchanan_Resume.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+      <a href="explore.html">Explore</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="bio">
+      <p>
+        Senior Robotics Engineer at <a href="https://www.neyarobotics.com/">Neya Systems</a>, working on robust software for off-road autonomy.
+        I am the team lead and a core contributor to Neya's Virtual Integration and Simulation Environment (<a href="https://www.neyarobotics.com/simulation">VISE</a>), a high-fidelity Unreal Engine-based off-road autonomy simulator.
+      </p>
+      <p>
+        I was previously at RE2 / Sarcos Robotics as an Autonomy and Motion Planning Engineer. My work there spanned embedded software for manipulators, hierarchical state machines, motion planning and control for manipulation, and computer vision.
+      </p>
+      <p>
+        My research background is in robotics, applied mathematics, and mechanics. I most recently first co-authored <a href="https://saumyasaxena.github.io/grapheqa/">GraphEQA</a> in the 2025 Conference on Robot Learning, a novel approach to embodied question answering using real-time 3D metric-semantic scene graphs and vision-language models.
+        Before that, I worked on geometric methods for control and coordination of biologically inspired multi-robot systems in the <a href="https://biorobotics.ri.cmu.edu/">Biorobotics Lab</a> at Carnegie Mellon University.
+      </p>
+      <p>
+        <a href="viewable/Blake_Buchanan_Resume.pdf">Resume ↗</a>
+      </p>
+    </section>
+
+    <div class="section-label">Recent Projects</div>
+    <section>
+      <details>
+        <summary>Reinforcement Learning and Interstellar's TARS Robot in MuJoCo</summary>
+        <div class="detail-body">
+          <p>If you are a space enthusiast, you might have noticed the design of TARS, the repurposed military robot from Christopher Nolan's Interstellar.
+            I thought it would be interesting to explore how reinforcement learning could be applied to a robot with a similar design. In this project, I investigate different RL algorithms and policies resulting from varying parameterizations.
+            I developed USD and MJCF models for a basic TARS-inspired robot, and train TARS to locomote using MuJoCo playground. See the <a href="https://github.com/blakerbuchanan/tars_walker#training-mujoco-playground">the GitHub page</a> for more details.</p>
+        </div>
+      </details>
+      <details>
+        <summary>GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering (2024 - 2025)</summary>
+        <div class="detail-body">
+          <video controls>
+            <source src="viewable/grapheqa_bluepan_norobot_fast_actual.mp4" type="video/mp4">
+          </video>
+          <p>Left panel: Robot equipped with <a href="https://grapheqa.github.io/">GraphEQA</a>, an approach that utilizes real-time 3D metric-semantic scene graphs (3DSGs) and task relevant images as multi-modal memory for grounding Vision-Language Models (VLMs) to perform EQA tasks in unseen environments. The robot uses GraphEQA to navigate a home while planning and mapping the environment in real-time; captured via an externally mounted camera.</p>
+          <p>Right panel: Metric-semantic 3D mesh and scene graph construction from Hydra. TSDF-based 2D occupancy map where white nodes represent explored areas, red nodes are obstacles, blue nodes are clustered frontiers. Green node shows the target location chosen by the planner.</p>
+          <p>Right panel inset: Video feed from the robot head camera.</p>
+        </div>
+      </details>
+    </section>
+
+    <section>
+      <div class="section-label">Publications</div>
+      <ul class="pub-list">
+
+        <li>
+          <div class="pub-title">GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering</div>
+          <div class="pub-meta">Saumya Saxena, <strong>Blake Buchanan</strong>, Chris Paxton, Peiqi Liu, Bingqing Chen, Narunas Vaskevicius, Luigi Palmieri, Jonathan Francis, Oliver Kroemer — CoRL 2025</div>
+          <div class="pub-links">
+            <a href="https://www.arxiv.org/abs/2412.14480">arXiv</a>
+            <a href="https://saumyasaxena.github.io/grapheqa/">website</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="pub-title">The Geometric Structure of Externally Actuated Planar Locomoting Systems in Ambient Media</div>
+          <div class="pub-meta"><strong>Blake Buchanan</strong>, Tony Dear, Scott D. Kelly, Matthew Travers, Howie Choset — arXiv 2021</div>
+          <div class="pub-links">
+            <a href="https://arxiv.org/abs/2108.06442">arXiv</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="pub-title">Stability and Control of Chaplygin Beanies Coupled to a Platform Through Nonholonomic Constraints</div>
+          <div class="pub-meta"><strong>Blake Buchanan</strong>, Matthew Travers, Howie Choset, Scott D. Kelly — ASME DSCC 2020</div>
+          <div class="pub-links">
+            <a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/buchanan2020v2.pdf">paper</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="pub-title">Locomotion of a multi-link non-holonomic snake robot with passive joints</div>
+          <div class="pub-meta">Tony Dear, <strong>Blake Buchanan</strong>, Rodrigo Abrajan-Guerrero, Scott D. Kelly, Matthew Travers, Howie Choset — IJRR 2020</div>
+          <div class="pub-links">
+            <a href="http://biorobotics.ri.cmu.edu/papers/paperUploads/dear2020.pdf">paper</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="pub-title">Mechanics and Control of Coupled Interactions in Ambient Media</div>
+          <div class="pub-meta"><strong>Blake Buchanan</strong> — Master's Thesis, Carnegie Mellon University 2020</div>
+          <div class="pub-links">
+            <a href="/viewable/Blake_Buchanan_Master_Thesis.pdf">paper</a>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Boston, MA</span>
+    <span>
+      <a href="mailto:blakerbuchanan@gmail.com">email</a> &nbsp;·&nbsp;
+      <a href="https://github.com/blakerbuchanan">github</a> &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/blakerbuchanan/">linkedin</a>
+    </span>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Blake R. Buchanan</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --col: 860px;
+      --gap: 2rem;
+      --fg: #111;
+      --muted: #666;
+      --link: #111;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+      color: var(--fg);
+      background: #fff;
+      padding: 0 var(--gap);
+    }
+
+    header, main, footer {
+      max-width: var(--col);
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 3rem 0;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .header-identity {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .header-name-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+
+    .header-avatar {
+      width: 128px;
+      height: 128px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    header .name {
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      text-decoration: none;
+      color: var(--fg);
+    }
+
+    nav { display: flex; gap: 1.5rem; }
+
+    .social-links { display: flex; gap: 1.5rem; }
+
+    nav a, .social-links a {
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    nav a:hover, .social-links a:hover { color: var(--fg); }
+    nav a.active { color: var(--fg); }
+
+    main { padding: 3rem 0; }
+
+    section { margin-bottom: 3.5rem; }
+    section:last-child { margin-bottom: 0; }
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    /* ── Accordion ── */
+    details {
+      border-top: 1px solid #e8e8e8;
+    }
+
+    details:last-of-type {
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    summary {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 1rem 0;
+      cursor: pointer;
+      list-style: none;
+      font-weight: 500;
+      gap: 1rem;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary::after {
+      content: '+';
+      color: var(--muted);
+      font-weight: 400;
+      flex-shrink: 0;
+    }
+
+    details[open] summary::after {
+      content: '−';
+    }
+
+    details[open] summary {
+      margin-bottom: 1rem;
+    }
+
+    .detail-body {
+      padding-bottom: 1.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: var(--fg);
+    }
+
+    p:last-child { margin-bottom: 0; }
+
+    a {
+      color: var(--link);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    em { font-style: italic; }
+
+    video {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 1.25rem 0;
+    }
+
+    img.content-img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 1.25rem auto;
+    }
+
+    .video-pair {
+      display: flex;
+      gap: 1rem;
+      margin: 1.25rem 0;
+    }
+
+    .video-pair video { width: 50%; margin: 0; }
+
+    footer {
+      padding: 2.5rem 0;
+      border-top: 1px solid #e8e8e8;
+      font-size: 0.8rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    footer a { color: var(--muted); text-decoration: none; }
+    footer a:hover { color: var(--fg); }
+
+    @media (max-width: 480px) {
+      header { flex-direction: column; gap: 1rem; }
+      nav { flex-wrap: wrap; gap: 1rem; }
+      .video-pair { flex-direction: column; }
+      .video-pair video { width: 100%; }
+      footer { flex-direction: column; gap: 0.5rem; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-identity">
+      <img class="header-avatar" src="assets/imgs/me.jpg" alt="Blake Buchanan">
+      <div class="header-name-group">
+        <a class="name" href="index.html">Blake R. Buchanan</a>
+        <div class="social-links">
+          <a href="mailto:blakerbuchanan@gmail.com">Email</a>
+          <a href="https://github.com/blakerbuchanan" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/blakerbuchanan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="viewable/Blake_Buchanan_Resume.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+      <a href="explore.html">Explore</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="section-label">Biography</div>
+    <section>
+      <p>I graduated cum laude from the University of North Carolina at Charlotte in 2018 where I earned a BS in Mechanical Engineering and Engineering Science. My research efforts there took place throughout my final two years, during which I was advised by Professor <a href="http://scottdavidkelly.wikidot.com/">Scott D. Kelly</a>.
+        I then went on to graduate with a MS in robotics in 2020 from Carnegie Mellon University's Robotics Institute. I was associated with the <a href="http://biorobotics.ri.cmu.edu/index.php">Biorobotics</a> lab and was co-advised by Professors <a href="https://www.ri.cmu.edu/ri-faculty/howie-choset/">Howie Choset</a> and <a href="https://www.ri.cmu.edu/ri-faculty/matthew-j-travers/">Matthew Travers</a>, with Professor Kelly also closely involved with my research.
+        My focus was primarily on studying, developing models for, and building multi-agent systems of underactuated robots rooted in nonholonomic mechanics. While I have been particularly interested in robots whose locomotion embodies that of biological agents which move on compliant substrates or in fluid environments, see <a href="https://www.ri.cmu.edu/project/geometric-mechanics-the-dynamics-and-control-of-multi-robot-systems-in-ambient-media/" target="_blank">Geometric Mechanics: The Dynamics and Control of Multi-robot Systems in Ambient Media</a>, my current research interests span a variety of topics.
+        I have also more recently begun thinking about broader applications in robotics, exploring questions such as, <em>how can we harness the technologies introduced by Large Language Models (LLMs) and Vision Language Models (VLMs) to improve the robots we might deploy in the real world?</em>
+        I am also a large proponent of simulation in robotics, and think that high-fidelity virtual environments can significantly accelerate the development and testing of robotic systems.</p>
+    </section>
+
+    <div class="section-label">Research</div>
+    <section>
+      <details>
+        <summary>GraphEQA: Using 3D Semantic Scene Graphs for Real-time Embodied Question Answering (2024 - 2025)</summary>
+        <div class="detail-body">
+          <video controls>
+            <source src="viewable/grapheqa_bluepan_norobot_fast_actual.mp4" type="video/mp4">
+          </video>
+          <p>Left panel: Robot equipped with <a href="https://grapheqa.github.io/">GraphEQA</a>, an approach that utilizes real-time 3D metric-semantic scene graphs (3DSGs) and task relevant images as multi-modal memory for grounding Vision-Language Models (VLMs) to perform EQA tasks in unseen environments. The robot uses GraphEQA to navigate a home while planning and mapping the environment in real-time; captured via an externally mounted camera.</p>
+          <p>Right panel: Metric-semantic 3D mesh and scene graph construction from Hydra. TSDF-based 2D occupancy map where white nodes represent explored areas, red nodes are obstacles, blue nodes are clustered frontiers. Green node shows the target location chosen by the planner.</p>
+          <p>Right panel inset: Video feed from the robot head camera.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Mechanics and Control of Coupled Interactions in Ambient Media (2018 - 2021)</summary>
+        <div class="detail-body">
+          <p>Mechanical systems exhibiting nonholonomic constraints can often be of utility in the study of locomotion and coupled group behaviors for biological systems. Many multi-agent systems in nature, for example, are comprised of agents that interact with, and respond to, the dynamics of their environment. In a recent paper, we approached the study of such agent-environment interactions through the study of passively compliant vehicles coupled to their environment via simple nonholonomic constraints. The Chaplygin beanie is a simple underactuated mechanical system that locomotes when its rotor rotates relative to its body. An example of the Chaplygin beanie is shown below. Supported by two frictionless casters at the front and a torsional spring coupling the rotor to the cart, a nonzero displacement in the spring induces locomotion.</p>
+          <img class="content-img" src="assets/imgs/beanieOnAPlatformPic.png" alt="Chaplygin beanie on a movable platform">
+          <p>The Chaplygin beanie is shown sitting atop a passive platform capable of translational motion. In our recent paper published in the ASME 2020 Dynamic Systems and Control Conference <a href="index.html#publications">(1)</a>, we prove that all initial conditions corresponding to zero net momentum of this mechanical system will result in stable forward motion of the Chaplygin beanie. In particular, when its rotor is wound up arbitrarily, the behavior in the following video is exhibited.</p>
+          <video controls>
+            <source src="viewable/beanieplatformcropped.mp4" type="video/mp4">
+            <source src="viewable/beanieplatformcropped.ogv" type="video/ogg">
+            <source src="viewable/beanieplatformcropped.webm" type="video/webm">
+          </video>
+          <p>The paper referenced above also explores control of the platform, termed <em>exogenous control</em>, and the resulting locomotion of a passive Chaplygin beanie. Much of the work in this paper also contributed to my Master's thesis, which you can download <a href="https://www.ri.cmu.edu/publications/mechanics-and-control-of-coupled-interactions-in-ambient-media/">here</a>.</p>
+          <p>Upon the addition of another Chaplygin beanie to the platform, so that the system now contains two agents within the medium, rich behaviors emerge in simulation. If both agents are equipped with some elasticity in their body and wound up arbitrarily, the two agents will locomote in the same direction independent of either of their orientations and due purely to the dynamics induced by the actuated agent through the medium.</p>
+          <div class="video-pair">
+            <video controls>
+              <source src="viewable/twopassivebeanies.mp4" type="video/mp4">
+              <source src="viewable/twopassivebeanies.webm" type="video/webm">
+            </video>
+            <video controls>
+              <source src="viewable/beaniesentrainment01.mp4" type="video/mp4">
+              <source src="viewable/beaniesentrainment01.ogv" type="video/ogg">
+              <source src="viewable/beaniesentrainment01.webm" type="video/webm">
+            </video>
+          </div>
+          <p>The first of these two videos shows two Chaplygin beanies on an <em>immovable</em> platform with some initial conditions. Ultimately, they locomote in different directions. The second video shows two Chaplygin beanies on a <em>movable</em> platform with the same initial conditions as the previous experiment. Proving the entrainment phenomenon exhibited in this second video is one of the problems I am currently working on.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Mechanical Communication Through Ambient Media (2020 - 2021)</summary>
+        <div class="detail-body">
+          <p>Mechanical coupling between agents through ambient media can also be viewed as a mechanism for communication. Communication through some physical media has been termed <em>mechanical communication</em> and has been shown to be exhibited at the cellular level (see <a href="https://www.nature.com/articles/nphys3619">this</a>). This particular form of communication is distinct in that information flows through a medium possessing dynamics of its own, encoding quantities possibly describing an individual agent's behavioral states, disturbances in the surrounding medium, and overall group behavioral states. My previous work began to lay a theoretical foundation for investigating mechanical communication from a perspective of robotics and applied mathematics. My current work involves further establishing the concept of mechanical communication within multi-agent systems in ambient media and determining how it can be exploited for decision-making and control of collections of agents within these systems. More on this work as it develops.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>Snake Robot Locomotion (2017 - 2019)</summary>
+        <div class="detail-body">
+          <p>The constraints on a snake as it slithers along the ground can also be modeled as nonholonomic constraints on a series of wheels on a series of articulated linkages. The role of compliance in biological systems is ubiquitous. Fish and snakes have flexible bodies, and humans have muscles and tendons which are compliant. In <a href="index.html#publications">(2)</a>, we investigate the locomotion of a multi-link nonholonomic snake robot and experimentally validate its locomotion under amplitude and frequency variations in sinusoidal actuation of its foremost joint. The remaining joints are passively compliant via linear springs. A robot of such a system is shown below.</p>
+          <img class="content-img" src="assets/imgs/side.jpg" alt="Snake robot with four links">
+          <p>And here is a video of that robot undergoing a prescribed amplitude modulation to locomote around an object in its environment.</p>
+          <video controls>
+            <source src="viewable/fourlinkspeedobject.mp4" type="video/mp4">
+            <source src="viewable/fourlinkspeedobject.ogv" type="video/ogg">
+            <source src="viewable/fourlinkspeedobject.webm" type="video/webm">
+          </video>
+          <p>Robots like this one help us to describe the locomotion of biological systems. I hope to develop more of these kinds of robots in some of my future work with multi-agent systems in ambient media to gain some fundamental insight into how such media contributes to the coordinated efforts of organisms like fish and even cells.</p>
+        </div>
+      </details>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Pittsburgh, PA</span>
+    <span>
+      <a href="mailto:blakerbuchanan@gmail.com">email</a> &nbsp;·&nbsp;
+      <a href="https://github.com/blakerbuchanan">github</a> &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/blakerbuchanan/">linkedin</a>
+    </span>
+  </footer>
+
+</body>
+</html>
